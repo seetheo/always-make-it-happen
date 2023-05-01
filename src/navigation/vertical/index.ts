@@ -4,10 +4,8 @@ import { VerticalNavItemsType } from 'src/@core/layouts/types'
 const navigation = (): VerticalNavItemsType => {
   return [
     {
-      title: 'Dashboards',
+      title: 'Agent Panel',
       icon: 'mdi:home-outline',
-      badgeContent: 'new',
-      badgeColor: 'error',
       children: [
         {
           title: 'CRM',
@@ -350,7 +348,7 @@ const navigation = (): VerticalNavItemsType => {
       icon: 'mdi:google-circles-extended'
     },
     {
-      
+
       title: 'Cards',
       icon: 'mdi:credit-card-outline',
       children: [
