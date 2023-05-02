@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "role": "admin",
+    "password": "admin",
+    "fullName": "John Doe",
+    "username": "johndoe",
+    "email": "admin@always-make-it-happen.com"
+  },
+  {
+    "id": 2,
+    "role": "client",
+    "password": "client",
+    "fullName": "Jane Doe",
+    "username": "janedoe",
+    "email": "client@always-make-it-happen.com"
+  }
+]

@@ -1,5 +1,6 @@
 // ** JWT import
 import jwt from 'jsonwebtoken'
+import usersData from './users.json';
 
 // ** Mock Adapter
 import mock from 'src/@fake-db/mock'
@@ -10,24 +11,8 @@ import defaultAuthConfig from 'src/configs/auth'
 // ** Types
 import { UserDataType } from 'src/context/types'
 
-const users: UserDataType[] = [
-  {
-    id: 1,
-    role: 'admin',
-    password: 'admin',
-    fullName: 'John Doe',
-    username: 'johndoe',
-    email: 'admin@materialize.com'
-  },
-  {
-    id: 2,
-    role: 'client',
-    password: 'client',
-    fullName: 'Jane Doe',
-    username: 'janedoe',
-    email: 'client@materialize.com'
-  }
-]
+const users: UserDataType[] = usersData;
+ 
 
 // ! These two secrets should be in .env file and not in any other file
 const jwtConfig = {

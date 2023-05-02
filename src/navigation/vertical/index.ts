@@ -8,15 +8,15 @@ const navigation = (): VerticalNavItemsType => {
       icon: 'mdi:home-outline',
       children: [
         {
-          title: 'CRM',
+          title: 'Agents',
           path: '/dashboards/crm'
         },
         {
-          title: 'Analytics',
+          title: 'Patients',
           path: '/dashboards/analytics'
         },
         {
-          title: 'eCommerce',
+          title: 'Tests',
           path: '/dashboards/ecommerce'
         }
       ]
