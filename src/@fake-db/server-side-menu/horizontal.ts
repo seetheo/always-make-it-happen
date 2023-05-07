@@ -15,6 +15,8 @@ const navigation: HorizontalNavItemsType = [
         path: '/dashboards/crm'
       },
       {
+        action: 'read',
+        subject: 'super-admin',
         icon: 'mdi:chart-timeline-variant',
         title: 'Analytics',
         path: '/dashboards/analytics'
@@ -133,7 +135,6 @@ const navigation: HorizontalNavItemsType = [
         icon: 'mdi:google-circles-extended'
       },
       {
-        
         title: 'Cards',
         icon: 'mdi:credit-card-outline',
         children: [
@@ -246,7 +247,7 @@ const navigation: HorizontalNavItemsType = [
           {
             title: 'More',
             path: '/components/more'
-          },
+          }
         ]
       }
     ]
@@ -540,7 +541,7 @@ const navigation: HorizontalNavItemsType = [
           {
             title: 'Input Mask',
             path: '/forms/form-elements/input-mask'
-          },
+          }
         ]
       },
       {

@@ -1,6 +1,6 @@
 // ** JWT import
 import jwt from 'jsonwebtoken'
-import usersData from './users.json';
+import usersData from '../../data/users.json';
 
 // ** Mock Adapter
 import mock from 'src/@fake-db/mock'
@@ -12,7 +12,7 @@ import defaultAuthConfig from 'src/configs/auth'
 import { UserDataType } from 'src/context/types'
 
 const users: UserDataType[] = usersData;
- 
+
 
 // ! These two secrets should be in .env file and not in any other file
 const jwtConfig = {

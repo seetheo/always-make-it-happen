@@ -30,7 +30,7 @@ import AnalyticsTotalTransactions from 'src/views/dashboards/analytics/Analytics
 import AnalyticsProjectStatistics from 'src/views/dashboards/analytics/AnalyticsProjectStatistics'
 import AnalyticsTopReferralSources from 'src/views/dashboards/analytics/AnalyticsTopReferralSources'
 
-const AnalyticsDashboard = () => {
+const SuperAdminDashboard = () => {
   const ability = useContext(AbilityContext)
 
 return (
@@ -112,8 +112,8 @@ return (
     </ApexChartWrapper>
   )
 }
-AnalyticsDashboard.acl = {
+SuperAdminDashboard.acl = {
   action: 'read',
   subject: 'super-admin'
 }
-export default AnalyticsDashboard
+export default SuperAdminDashboard

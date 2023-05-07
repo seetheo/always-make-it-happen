@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "role": "super-administrator",
+    "password": "X9f$Gh7s",
+    "fullName": "Michael Smith",
+    "username": "michaelsmith",
+    "email": "michael@company.com"
+  },
+  {
+    "id": 2,
+    "role": "regional-administrator",
+    "password": "H3k#Lp5m",
+    "fullName": "Karen Johnson",
+    "username": "karenjohnson",
+    "email": "karen@company.com"
+  },
+  {
+    "id": 3,
+    "role": "state-administrator",
+    "password": "E5q#Rt6p",
+    "fullName": "Robert Brown",
+    "username": "robertbrown",
+    "email": "robert@company.com"
+  },
+  {
+    "id": 4,
+    "role": "city-administrator",
+    "password": "N1s$Bt8m",
+    "fullName": "Jessica Davis",
+    "username": "jessicadavis",
+    "email": "jessica@company.com"
+  },
+  {
+    "id": 5,
+    "role": "city-regional-administrator",
+    "password": "W8j#Zx2t",
+    "fullName": "David Lee",
+    "username": "davidlee",
+    "email": "david@company.com"
+  },
+  {
+    "id": 6,
+    "role": "agent",
+    "password": "G4y%Fh9x",
+    "fullName": "Amanda Wilson",
+    "username": "amandawilson",
+    "email": "amanda@company.com"
+  },
+  {
+    "id": 7,
+    "role": "sub-agent",
+    "password": "R6k$Lm2j",
+    "fullName": "Steven Jackson",
+    "username": "stevenjackson",
+    "email": "steven@company.com"
+  },
+  {
+    "id": 1,
+    "role": "admin",
+    "password": "admin",
+    "fullName": "John Doe",
+    "username": "johndoe",
+    "email": "admin@always-make-it-happen.com"
+  },
+  {
+    "id": 2,
+    "role": "client",
+    "password": "client",
+    "fullName": "Jane Doe",
+    "username": "janedoe",
+    "email": "client@always-make-it-happen.com"
+  }
+]
